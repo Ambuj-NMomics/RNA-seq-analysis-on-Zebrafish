@@ -24,3 +24,26 @@ cufflinks_out/
 *.gtf
 *.bt2
 *.ebwt
+
+# Nextflow runtime files
+work/
+.nextflow/
+.nextflow.log*
+.nextflow.log.*
+
+# Pipeline outputs and test runs
+results*/
+results_*/
+multiqc_report.html
+pipeline_report.html
+pipeline_timeline.html
+pipeline_trace.txt
+
+# Temporary scripts and backups
+main.nf.backup
+main.nf.before_*
+*.bak
+
+# Nextflow version-check downloads
+version?current=*
+null/
