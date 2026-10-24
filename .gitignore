@@ -1,23 +1,26 @@
-cat > .gitignore <<'EOF'
-data/
-genome/
-annotation/
-tophat/
-cufflinks/
-cuffdiff/
-results/
-work/
+# Sequencing data
 *.fastq
 *.fastq.gz
 *.fq
 *.fq.gz
+
+# Alignment files
 *.bam
 *.bai
 *.sam
 *.cram
+
+# Large analysis outputs
+work/
+results/
+tophat_out/
+cuffdiff_out/
+cufflinks_out/
+
+# Reference data
 *.fasta
 *.fa
+*.fai
 *.gtf
 *.bt2
 *.ebwt
-EOF
