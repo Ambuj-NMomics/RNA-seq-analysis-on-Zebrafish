@@ -1,0 +1,23 @@
+cat > .gitignore <<'EOF'
+data/
+genome/
+annotation/
+tophat/
+cufflinks/
+cuffdiff/
+results/
+work/
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+*.fasta
+*.fa
+*.gtf
+*.bt2
+*.ebwt
+EOF
